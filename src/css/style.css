@@ -37,6 +37,54 @@ h2 {
 
 /*
 
+BUTTON PASTEL-RED
+
+*/
+
+.btn-pastel-red {
+    color: #fff;
+    background-color: #ff6b6b;
+    border-color: #ff6b6b;
+}
+
+.btn-pastel-red:hover {
+    color: #fff;
+    background-color: #ee5253;
+    border-color: #ee5253;
+}
+
+.btn-pastel-red.focus,
+.btn-pastel-red:focus {
+    color: #fff;
+    background-color: #ff6b6b;
+    border-color: #ff6b6b;
+    box-shadow: 0 0 0 .2rem rgba(255, 107, 107, .5)
+}
+
+.btn-pastel-red.disabled,
+.btn-pastel-red:disabled {
+    color: #fff;
+    background-color: #ff6b6b;
+    border-color: #ff6b6b;
+}
+
+.btn-pastel-red:not(:disabled):not(.disabled).active,
+.btn-pastel-red:not(:disabled):not(.disabled):active,
+.show>.btn-pastel-red.dropdown-toggle {
+    color: #fff;
+    background-color: #ff6b6b;
+    border-color: #ff6b6b;
+}
+
+.btn-pastel-red:not(:disabled):not(.disabled).active:focus,
+.btn-pastel-red:not(:disabled):not(.disabled):active:focus,
+.show>.btn-pastel-red.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(255, 107, 107, .5)
+}
+
+
+/*
+
 HEADER
 
 */
@@ -52,6 +100,21 @@ HEADER
 
 .header-logo img {
     height: 65px;
+}
+
+.dropdown-menu-bg {
+    background-color: rgba(34, 47, 62, 0.85);
+    padding-left: 15px;
+}
+
+.dropdown-menu-bg a {
+    color: white;
+}
+
+.dropdown-menu-bg a:hover {
+    background-color: rgba(34, 47, 62, 0);
+    color: white;
+    padding-left: 15px;
 }
 
 
@@ -103,6 +166,79 @@ BANNER
 
 /*
 
+NAVIGATION
+
+*/
+
+.navigation {
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+/*
+
+HOURS
+
+*/
+
+#hours {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#hours p {
+    text-align: justify;
+    margin-top: 15px;
+}
+
+
+/*
+
+TDC
+
+*/
+
+#tdc {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#tdc h3 {
+    margin-top: 25px;
+}
+
+#tdc p {
+    text-align: justify;
+    margin-top: 15px;
+}
+
+
+/*
+
+MOODLE
+
+*/
+
+#moodle {
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#moodle h3 {
+    margin-top: 25px;
+}
+
+#moodle p {
+    text-align: justify;
+    margin-top: 15px;
+}
+
+
+/*
+
 ABOUT
 
 */
@@ -113,7 +249,6 @@ ABOUT
 }
 
 .about h3 {
-    text-align: center;
     margin-top: 25px;
 }
 
@@ -161,7 +296,7 @@ FOOTER
 .footer {
     background-color: #ee5253;
     width: 100%;
-    position: relative;
+    position: static;
     bottom: 0;
     margin-top: 100px;
 }

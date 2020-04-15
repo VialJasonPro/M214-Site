@@ -12,7 +12,6 @@
     <!--        HEADER      -->
     <header class="container-fluid header">
         <div class="container">
-
             <nav class="navbar navbar-expand-lg navbar-dark ">
                 <a href="index.html" class="header-logo"><img src="src/image/logo.png" alt="Logo de L'Epai"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,16 +19,16 @@
                 </button>
                 <div class="collapse navbar-collapse collapse-lg " id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="organisation.html">Organisation</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bons comportements</a>
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bons comportements</a>
                             <div class="dropdown-menu dropdown-menu-bg" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="stockage.html">Stockage</a>
+                                <a class="dropdown-item" href="stockage.html">Stockage<span class="sr-only">(current)</span></a>
                                 <a class="dropdown-item" href="#">Sécurité</a>
                                 <a class="dropdown-item" href="#">Raccourcis clavier</a>
                             </div>
@@ -52,7 +51,6 @@
         </div>
     </header>
     <!--        END HEADER      -->
-
     <!--        BANNER      -->
     <section class="container-fluid banner">
         <div class="ban">
@@ -70,45 +68,53 @@
     <!--       A PROPOS     -->
     <section class="container-fluid about">
         <div class="container">
-            <h2>À propos</h2>
+            <h2>L'importance du stockage</h2>
             <hr class="separator">
             <div class="row">
-                <article class="col-md-12 col-lg-6 col-xs-12 col-sm-12">
-                    <h3>Objectif du site</h3>
-                    <p>Expliquer pourquoi ce site existe et pourquoi il est important d'instruire les utilisateurs à de bons comportements lors de l'utilisation d'outils informatiques.
+                <article class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
+                    <p>Expliquer pourquoi il est important de toujours stocker son travail.
                     </p>
-                </article>
-                <article class="col-md-12 col-lg-6 col-xs-12 col-sm-12">
-                    <h3>Quel contenu y trouver ?</h3>
-                    <p>Résumer le contenu qui va être vu sur ce site internet.</p>
                 </article>
             </div>
         </div>
     </section>
     <!--       END A PROPOS     -->
-    <!--       CARTE SITE     -->
-    <section class="container-fluid map grey-background">
+    <!--       NAVIGATION     -->
+    <section class="navigation container-fluid">
         <div class="container">
-            <h2>Carte du site</h2>
+            <h2>Navigation</h2>
             <hr class="separator">
-            <div class="row">
-                <article class="col-lg-6 col-md-12">
-                    <div class="card ">
-                        <div class="card-body">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10923.124668751047!2d7.1568242!3d46.8086164!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfcc432e2308b4657!2sEPAI%20-%20Ecole%20Professionnelle%20Artisanale%20et%20Industrielle!5e0!3m2!1sfr!2sch!4v1583142634149!5m2!1sfr!2sch"
-                                allowfullscreen=""></iframe>
-                        </div>
+            <div class="card-deck">
+                <div class="card">
+                    <a href="#"><img src="src/image/nav_physical.jpg" class="card-img-top" alt="Image de Moodle"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">SUPPORT PHYSIQUE</h5>
+                        <p class="card-text">Résumé du chapitre.</p>
+                        <a class="btn btn-pastel-red" href="#">Aller au chapitre</a>
                     </div>
-                </article>
-                <article class="col-lg-6 col-md-12">
-                    <div class="card ">
-                        <img src="src/image/map_epai.png" class="img-fluid mx-auto d-block" alt="Carte des bâtiments de l'Epai">
+                </div>
+                <div class="card">
+                    <a href="#"><img src="src/image/nav_cloud.jpg" class="card-img-top" alt="Photo de cloud"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">CLOUD</h5>
+                        <p class="card-text">Résumé du chapitre.</p>
+                        <a class="btn btn-pastel-red" href="#">Aller au chapitre</a>
                     </div>
-                </article>
+                </div>
+                <div class="card">
+
+                    <a href="#"><img src="src/image/nav_network_drive.jpg" class="card-img-top" alt="Photo de serveur de drive"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">LECTEURS RÉSEAUX</h5>
+                        <p class="card-text">Résumé du chapitre.</p>
+                        <a class="btn btn-pastel-red" href="#">Aller au chapitre</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!--       END CARTE SITE     -->
+    <!--       END NAVIGATION     -->
+
     <!--       FOOTER      -->
     <footer class="container-fluid footer">
         <div class="container">

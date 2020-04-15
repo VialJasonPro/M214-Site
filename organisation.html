@@ -20,11 +20,11 @@
                 </button>
                 <div class="collapse navbar-collapse collapse-lg " id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="organisation.html">Organisation</a>
+                            <a class="nav-link active" href="organisation.html">Organisation<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bons comportements</a>
@@ -52,7 +52,6 @@
         </div>
     </header>
     <!--        END HEADER      -->
-
     <!--        BANNER      -->
     <section class="container-fluid banner">
         <div class="ban">
@@ -67,48 +66,101 @@
         </div>
     </section>
     <!--       END BANNER      -->
-    <!--       A PROPOS     -->
-    <section class="container-fluid about">
+
+    <!--       NAVIGATION     -->
+    <section class="navigation container-fluid">
         <div class="container">
-            <h2>À propos</h2>
+            <h2>Navigation</h2>
+            <hr class="separator">
+            <div class="card-deck">
+                <div class="card">
+                    <a href="#hours"><img src="src/image/nav_horaire.jpg" class="card-img-top" alt="Photo d'une horloge"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">HORAIRES</h5>
+                        <p class="card-text">Résumé du chapitre.</p>
+                        <a class="btn btn-pastel-red" href="#hours">Aller au chapitre</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#tdc"><img src="src/image/nav_tdc.jpg" class="card-img-top" alt="Photo de carte mère"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">TESTS DE COMPÉTENCES</h5>
+                        <p class="card-text">Résumé du chapitre.</p>
+                        <a class="btn btn-pastel-red" href="#tdc">Aller au chapitre</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#moodle"><img src="src/image/nav_moodle.jpg" class="card-img-top" alt="Image de Moodle"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">MOODLE</h5>
+                        <p class="card-text">Résumé du chapitre.</p>
+                        <a class="btn btn-pastel-red" href="#moodle">Aller au chapitre</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--       END NAVIGATION     -->
+    <!--       HORAIRES    -->
+    <section class="container-fluid grey-background" id="hours">
+        <div class="container">
+            <h2>Horaires</h2>
             <hr class="separator">
             <div class="row">
-                <article class="col-md-12 col-lg-6 col-xs-12 col-sm-12">
-                    <h3>Objectif du site</h3>
-                    <p>Expliquer pourquoi ce site existe et pourquoi il est important d'instruire les utilisateurs à de bons comportements lors de l'utilisation d'outils informatiques.
-                    </p>
+                <article class="col-md-12 col-lg-4 col-xs-12 col-sm-12">
+                    <h3>Importance d'arriver à l'heure</h3>
+                    <p>Expliquer pourquoi il est important d'arriver à l'heure pour un travail professionnel.</p>
                 </article>
-                <article class="col-md-12 col-lg-6 col-xs-12 col-sm-12">
-                    <h3>Quel contenu y trouver ?</h3>
-                    <p>Résumer le contenu qui va être vu sur ce site internet.</p>
+                <article class="col-md-12 col-lg-4 col-xs-12 col-sm-12">
+                    <h3>Utiliser les transports en commun</h3>
+                    <p>Parler des solutions de transports en commun (que faire si on arrive en retard) et donner un accès au site des CFF.</p>
+                    <a class="btn btn-outline-danger btn-block" target="_blank" href="https://www.sbb.ch/fr/home.html">PAGE WEB DES CFF</a>
+                </article>
+                <article class="col-md-12 col-lg-4 col-xs-12 col-sm-12">
+                    <h3>Accéder aux horaires</h3>
+                    <p>Parler de WebUntis</p>
+                    <a class="btn btn-outline-danger btn-block" target="_blank" href="https://nete.webuntis.com/WebUntis/index.do?school=EPAI-Fribourg#/basic/timetable">WEBUNTIS</a>
                 </article>
             </div>
         </div>
     </section>
-    <!--       END A PROPOS     -->
-    <!--       CARTE SITE     -->
-    <section class="container-fluid map grey-background">
+    <!--       END HORAIRES    -->
+    <!--       TDC    -->
+    <section class="container-fluid" id="tdc">
         <div class="container">
-            <h2>Carte du site</h2>
+            <h2>Tests de compétences</h2>
             <hr class="separator">
             <div class="row">
-                <article class="col-lg-6 col-md-12">
-                    <div class="card ">
-                        <div class="card-body">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10923.124668751047!2d7.1568242!3d46.8086164!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfcc432e2308b4657!2sEPAI%20-%20Ecole%20Professionnelle%20Artisanale%20et%20Industrielle!5e0!3m2!1sfr!2sch!4v1583142634149!5m2!1sfr!2sch"
-                                allowfullscreen=""></iframe>
-                        </div>
-                    </div>
+                <article class="col-md-12 col-lg-6 col-xs-12 col-sm-12">
+                    <h3>C'est quoi ?</h3>
+                    <p>Expliquer ce qu'est un test de compétences.</p>
                 </article>
-                <article class="col-lg-6 col-md-12">
-                    <div class="card ">
-                        <img src="src/image/map_epai.png" class="img-fluid mx-auto d-block" alt="Carte des bâtiments de l'Epai">
-                    </div>
+                <article class="col-md-12 col-lg-6 col-xs-12 col-sm-12">
+                    <h3>Rattraper un test de compétences</h3>
+                    <p>Expliquer comment rattraper un test de compétences.</p>
+                    <a class="btn btn-outline-danger btn-block" target="_blank" href="https://www.epai-ict.ch/new/fr/registrations">S'INSCRIRE À UNE REMÉDIATION</a>
                 </article>
             </div>
         </div>
     </section>
-    <!--       END CARTE SITE     -->
+    <!--       END TDC    -->
+    <!--       MOODLE    -->
+    <section class="container-fluid grey-background" id="moodle">
+        <div class="container">
+            <h2>Moodle</h2>
+            <hr class="separator">
+            <div class="row">
+                <article class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
+                    <p>Moodle est une plate-forme permettant aux professeurs de proposer des supports de cours en ligne. Vous trouverez toutes les informations concernant les modules sur Moodle comme les différentes activités prévues durant un labo, vous
+                        permettant de revoir ce que vous avez effectué durant un module avant le TDC.
+                        <br>C'est également sur Moodle que le professeur mettra à disposition différents exercices. Il sera possible de mettre en ligne votre travail pour que celui-ci soit évalué. Les notes de vos tests de compétences peuvent être examinés
+                        sur Moodle.</p>
+                    <a class="btn btn-outline-danger btn-block" target="_blank" href="https://moodle.fritic.ch/">MOODLE</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!--       END MOODLE    -->
     <!--       FOOTER      -->
     <footer class="container-fluid footer">
         <div class="container">
