@@ -239,6 +239,79 @@ MOODLE
 
 /*
 
+CLOUD
+
+*/
+
+#cloud {
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#cloud h3 {
+    margin-top: 25px;
+}
+
+#cloud p {
+    text-align: justify;
+    margin-top: 15px;
+}
+
+#cloud img {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+/*
+
+PHYSICAL_SUPPORT
+
+*/
+
+#physical_support {
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#physical_support h3 {
+    margin-top: 25px;
+}
+
+#physical_support p {
+    text-align: justify;
+    margin-top: 15px;
+}
+
+
+/*
+
+NETWORK DRIVE
+
+*/
+
+#network_drive {
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#network_drive h3 {
+    margin-top: 25px;
+}
+
+#network_drive p {
+    text-align: justify;
+    margin-top: 15px;
+}
+
+
+/*
+
 ABOUT
 
 */
