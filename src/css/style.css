@@ -434,12 +434,10 @@ FOOTER
 .footer-logo img {
     width: 100%;
     padding: 10px;
-    text-align: center;
 }
 
-.footer-info {
-    line-height: 70px;
-    text-align: center;
+.footer-info ul {
+    list-style-type: none;
 }
 
 
